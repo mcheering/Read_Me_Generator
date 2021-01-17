@@ -53,15 +53,20 @@ inquirer
                   `#${response.title}
                   <br>
                   ##Description
+                  <br>
                   ${response.description}
                   <br>
                   ##License
-                  ![${response.license} image](${imageAddress})
+                  ![${response.license} image](${imageAddress}
+                  <br>
                   This application use the ${response.license}  license.  
                   <br>
                   ##Questions
+                  <br>
                   Below are two methods you can contact me about any questions you have, ideas, or issues you encounter using the application. The first link is to my github where you can post your question.  The other is my email where you can contact me directly. 
+                 <br>
                   -[Github](https://github.com/${response.username})
+                 <br>
                   -[email](${response.email})`,
                   (err) => err ? console.error(err) : console.log('Commit logged!')
             );
