@@ -1,0 +1,26 @@
+{
+  "name": "readme_generator_heering_design",
+  "version": "1.0.0",
+  "description": "A command-line README generator.  It is run in terminal and poses questions to the user, and the responses are formatted into markdown text.",
+  "main": "Index.js",
+  "scripts": {
+    "test": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcheering/Read_Me_Generator.git"
+  },
+  "keywords": [
+    "readme",
+    "md",
+    "cli",
+    "generator",
+    "template"
+  ],
+  "author": "matthew heering",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mcheering/Read_Me_Generator/issues"
+  },
+  "homepage": "https://github.com/mcheering/Read_Me_Generator#readme"
+}
