@@ -22,6 +22,7 @@ Run this in terminal: ```node index.js```
 
 run the isntallation command in the folder of an application you want a read me for.  Then type "node index.js" and follow the prompts. 
 
+
 ## Contributors 
 
 Matthew Heering
@@ -33,6 +34,6 @@ Matthew Heering
 
  Below are two ways you can contact contributors of the project or submit bugs:
 
--mcheering
+-Github Username: mcheering
 
--matthew.c.heering01@gmail.com
+-Email: matthew.c.heering01@gmail.com
