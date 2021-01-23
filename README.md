@@ -14,7 +14,7 @@ The application takes in user input from questions and formats their responses i
 
 ## Installation 
 
-Installation command: ```npm install read_me_generator``` (note:  this is not currently available, once it is published, it will be, but at this time, it is not.  In the meantime, download the source code, and then you will run it the same way).
+Installation command: ```npm install readme_generator_heeringdesign``` (note:  this is not currently available, once it is published, it will be, but at this time, it is not.  In the meantime, download the source code, and then you will run it the same way).
 
 Run this in terminal: ```node index.js```
 
