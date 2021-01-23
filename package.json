@@ -1,5 +1,5 @@
 {
-  "name": "readme_generator_heering_design",
+  "name": "readme_generator_heeringdesign",
   "version": "1.0.0",
   "description": "A command-line README generator.  It is run in terminal and poses questions to the user, and the responses are formatted into markdown text.",
   "main": "Index.js",
@@ -22,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/mcheering/Read_Me_Generator/issues"
   },
-  "homepage": "https://github.com/mcheering/Read_Me_Generator#readme"
+  "homepage": "https://github.com/mcheering/Read_Me_Generator#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  },
+  "devDependencies": {}
 }
