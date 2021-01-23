@@ -22,9 +22,9 @@ Run this in terminal: ```node index.js```
 
 run the isntallation command in the folder of an application you want a read me for.  Then type "node index.js" and follow the prompts. 
 
-!["usage"]("/assets/usage.gif")
+!["usage"](/assets/usage.gif)
 
-!["check"]("/assets/check.gif")
+!["check"](/assets/check.gif)
 
 
 
