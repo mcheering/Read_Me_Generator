@@ -73,7 +73,7 @@ inquirer
                               break;
                   }
 
-                  const readMeText = "# " + response.title + "\n \n" + "\n\n## License \n\n " + "Distributed under " + response.license + "      " + "\n ![" + response.license + "](" + imageAddress + ")\n" + "\n\n## Description \n\n" + response.description + "\n\n## Installation \n\n" + "```" + response.installation + "```" + "\n\n## Usage \n\n" + response.usage + "\n\n## Contributors \n\n" + response.contributors + "\n\n" + "\n\n## Contact \n\n" + "\n Below are two ways you can contact contributors of the project or submit bugs:\n" + "\n-" + response.username + "\n" + "\n-" + response.email + "\n"
+                  const readMeText = "# " + response.title + "\n \n" + "\n\n## License \n\n " + "Distributed under " + response.license + "      " + "\n ![" + response.license + "](" + imageAddress + ")\n" + "\n\n## Description \n\n" + response.description + "\n\n## Installation \n\n" + "```" + response.installation + "```" + "\n\n## Usage \n\n" + response.usage + "\n\n## Contributors \n\n" + response.contributors + "\n\n" + "\n\n## Contact \n\n" + "\n Below are two ways you can contact contributors of the project or submit bugs:\n" + "\n- Github Username: " + response.username + "\n" + "\n- Email: " + response.email + "\n"
                   fs.appendFile(response.location + '/README.md', readMeText,
                         (err) => err ? console.error(err) : console.log('Commit logged!')
                   );
